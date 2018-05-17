@@ -1,0 +1,13 @@
+
+syntax "LOLCODE" "\.lol$"
+magic "LOLCODE"
+comment "BTW"
+
+color red "\<(HAI|HAI 1.2|KTHXBYE|TROOF|NUMBAR|NUMBR|BUKKIT|YARN|TYPE)\>"
+color green "\<(O RLY?|YA RLY|NO WAI|MEBBE|OIC|GIMME|VISIBLE|MAEK|A|AN|SMOOSH|MKAY|BOTH OF|EITHER OF|WON OF|NOT|ALL OF|ANY OF|BOTH SAEM|DIFFRINT|WTF?|OMG|OMGWTF|IM IN YR|YR|IM OUTTA YR|TIL|WILE|UPPIN|NERFIN)\>"
+color cyan "\<(SUM OF|DIFF OF|PRODUKT OF|QUOSHUNT OF|MOD OF|BIGGR OF|SMALLR OF|HOW IZ I|IF U SAY SO|GTFO|FOUND YR|I IZ|IZ NOW A|R MAEK|I HAS A|R)\>"
+color yellow ""[^"]*""
+color yellow "\<(WIN|FAIL|NOOB)\>"
+color blue "BTW.*"
+color blue start="OBTW" end="TLDR"
+color ,green "[[:space:]]+$"
